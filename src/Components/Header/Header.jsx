@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <div class="topnav">
       <div className="Reactnews">
-        <h2>React News </h2>
+        <h2>New York Times News</h2>
       </div>
       <div>
         <span>

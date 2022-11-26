@@ -13,7 +13,8 @@ const News = () => {
       <div key={newsItem.id}>
         <h1>{newsItem.title}</h1>
         <p>{newsItem.abstract}</p>
-        <img src={newsItem.url} />
+        {console.log("image", newsItem)}
+        <img src={newsItem.multimedia[1].url} />
       </div>
     );
   });
