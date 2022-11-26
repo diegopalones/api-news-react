@@ -1,0 +1,42 @@
+$backgroundimage: url("https://st.depositphotos.com/1032463/1373/i/950/depositphotos_13732950-stock-photo-background-of-old-vintage-newspapers.jpg");
+
+body {
+    background-image: $backgroundimage;
+}
+.form {
+    flex-wrap: wrap;
+    flex-direction: column;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 25px 25px 25px;
+    
+}
+  
+  .title {
+    padding: 10px;
+  }
+
+  .subject {
+    padding: 10px;
+  }
+
+  .article {
+    padding: 10px;
+  }
+.button {
+    padding: 10px
+}
+
+.button:hover {
+  background-color: rgb(44, 135, 56);
+  color: black;
+}
+.message {
+  height: 100px;
+}
+.contact {
+    text-align: center;
+    color: rgb(16, 16, 16);
+    font-size: 300%;
+}

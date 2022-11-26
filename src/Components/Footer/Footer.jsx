@@ -1,12 +1,18 @@
-import React from 'react'
+import React from 'react';
+import './Footer.scss';
+import { Link } from 'react-router-dom';
 
-const Footer = () => {
+function Footer() {
   return (
-    <div>
-      <div>All rights reserved</div>
-      <div>Contact us: reactnews@nytimes.com</div>
+    <div className='footer'>
+      <nav className='nav-footer'>
+        <Link to=''>About</Link>
+        <Link to=''>Home</Link>
+        <Link to=''>Services</Link>
+        <Link to=''>Privacy Police</Link>
+      </nav>
     </div>
   );
 }
 
-export default Footer
+export default Footer;
