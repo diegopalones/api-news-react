@@ -17,6 +17,11 @@ const News = () => {
           <div className="container">
             <h1>{newsItem.title}</h1>
             <p>{newsItem.abstract}</p>
+
+            <a target="_blank" className="link" href={newsItem.url}>
+              Read more
+            </a>
+            
           </div>
         </div>
       </>

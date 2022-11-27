@@ -25,12 +25,14 @@ body {
     padding: 10px;
   }
 .button {
-    padding: 10px
+    padding: 10px;
+    color: rgb(19, 10, 10);
+    
 }
 
 .button:hover {
-  background-color: rgb(44, 135, 56);
-  color: black;
+  background-color: rgb(69, 69, 71);
+  color: rgb(226, 221, 221);
 }
 .message {
   height: 100px;
