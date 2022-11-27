@@ -47,7 +47,7 @@ const Home = () => {
 
       
       <Card style={{ width: "18rem" }} key={index} className="box">
-        <Card.Img variant="top" src="holder.js/100px180" src={card.image} />
+        <Card.Img variant="top" img="holder.js/100px180" src={card.image} />
         <Card.Body>
           <Card.Title>{card.title}</Card.Title>
           <Card.Text>{card.text}</Card.Text>
