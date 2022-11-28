@@ -83,11 +83,11 @@ By implementing Sass, we can make use of variables for the colours, fonts and wi
 
 ## Parts of the code
 
-![image](.\src\assets\code.png)
+![image](./src/assets/code.png)
 
 ## Form Page
 
-![image](.\src\assets\form.png)
+![image](./src/assets/form.png)
 
 
 
