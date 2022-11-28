@@ -1,70 +1,105 @@
-# Getting Started with Create React App
+#  API NEWS REACT PROJECT
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## INDEX
 
-## Available Scripts
+* About the Project
+    * Instalation and deployment
+    * Used technologies
+    * objectives
+    * Challenges
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## About the project
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 💫 Instalation and deployment
 
-### `npm test`
+To download the repository, in Visual Studio, open a terminal and run the following command:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+$ git clone https://github.com/diegopalones/api-news-react.git
+```
+ 
+Next you will have to download the external modules with node (Axios, Sass). To do this, run the following command.
 
-### `npm run build`
+```
+$ npm i
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Then, run the React application in our browser through:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+$ npm start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+### 💻 Used technologies
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+* HTML
+* CSS
+* Sass
+* Javascript
+* React
+* React-GlobalContext
+* React-Router
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### ⚔️ Objectives:
 
-## Learn More
+Create a REST API that is capable of the following:
+* A React mini-project to practice all the basic React elements already seen.
+* Implementing a "news website", in this case a digital magazine.
+* Using [NYT News API](https://developer.nytimes.com/apis) 
+* Using the React router
+* Using nested components (header, home, footer, form, news list).
+* Use React Context
+* Use SASS
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### ⚔️ functions
 
-### Analyzing the Bundle Size
+In this digital magazine, we have two main elements: Home and Form. In the first element, we can read the articles collected by the API and in the second one, we can send articles to the localStorage.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### ⚔️ React Router
 
-### Making a Progressive Web App
+Thanks to React Router we can create different routes within our React application in a SPA and navigate between components (articles and form).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+ 
 
-### Advanced Configuration
+### ⚔️ Sass
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+By implementing Sass, we can make use of variables for the colours, fonts and widths of the various elements during the layout, so that we can reuse and modify them later. 
 
-### Deployment
+## 🔜 Future implementations
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+* Responsive design. 
+* Create a variable to allow different API calls and change the content of the magazine. 
+* Delete old images once they are updated. 
 
-### `npm run build` fails to minify
+# Some previews from the project:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Parts of the code
+
+![image](.\src\assets\code.png)
+
+## Form Page
+
+![image](.\src\assets\form.png)
+
+
+
+## Autor
+
+### [Diego](https://github.com/diegopalones)
+
+
+
+
+
+
+
+
+
