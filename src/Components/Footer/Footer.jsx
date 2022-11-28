@@ -8,8 +8,8 @@ function Footer() {
       <nav className='nav-footer'>
         <Link to=''>About</Link>
         <Link to=''>Home</Link>
-        <Link to=''>Services</Link>
-        <Link to=''>Privacy Police</Link>
+        <Link to=''>Contact</Link>
+        <Link to=''>Legal Warning</Link>
       </nav>
     </div>
   );

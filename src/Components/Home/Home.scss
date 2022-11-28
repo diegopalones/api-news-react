@@ -1,14 +1,15 @@
 .grid {
-    display: grid;
+display: grid;
 grid-template-columns: repeat(3, 1fr);
 grid-template-rows: repeat(2, 1fr);
 grid-column-gap: 50px;
 grid-row-gap: 50px;
 margin-top: 150px;
 margin-left: 130px;
-
-
+border-radius: 80px;
 
 
 }
+
+
 
